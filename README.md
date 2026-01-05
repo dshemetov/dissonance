@@ -2,8 +2,8 @@
 
 A small Python applet that captures audio input from a microphone and visualizes
 dissonance curves based on the detected overtone frequencies.
-This is a quick demo that seems to work on on my Macbook and my acoustic guitar.
-Depending on your microphone quality and environment noise, results may vary.
+This is a quick demo that works ok with my Macbook and guitar.
+Results may vary with microphone quality and environment noise.
 I'm curious to see if it works with other instruments as well!
 
 <img src="guitar-a.png" alt="Guitar A String with Mac Laptop" width="600"/>

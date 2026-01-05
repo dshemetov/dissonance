@@ -82,7 +82,7 @@ def apply_highpass(magnitude_db, frequencies, cutoff_hz=80.0):
     return result
 
 
-def compute_noise_threshold(noise_frames, std_multiplier=1.5):
+def compute_noise_threshold(noise_frames, std_multiplier=2.5):
     """Compute noise floor threshold from collected silent frames.
 
     Args:
@@ -393,7 +393,7 @@ def run(device=None, sample_rate=44100, fft_size=8192, block_size=2048, noise_fr
         magnitude_db = state["smoothed_spectrum"]
 
         # Extract partials
-        partials = extract_partials(frequencies, magnitude_db, n_partials=10)
+        partials = extract_partials(frequencies, magnitude_db, n_partials=15)
 
         # Compute dissonance curve
         dissonance = compute_dissonance_curve(partials, ratios)
