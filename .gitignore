@@ -1,0 +1,6 @@
+ravel.wav
+.vscode
+__pycache__/
+uv.lock
+.venv
+.ruff_cache/
