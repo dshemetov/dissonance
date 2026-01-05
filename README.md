@@ -28,5 +28,7 @@ FFT frames to help stabilize the analysis, but it reduces latency.
 ## References
 
 - Minute physics video on dissonance curves: https://youtu.be/tCsl6ZcY9ag?t=464
-- Dissonance curves: https://en.wikipedia.org/wiki/Dissonance_curve
+- Dissonance model: https://gist.github.com/endolith/3066664
+- Frequency estimation: https://gist.github.com/endolith/255291
+- Parabolic interpolation: https://ccrma.stanford.edu/~jos/sasp/Quadratic_Interpolation_Spectral_Peaks.html
 - Audio input with sounddevice: https://python-sounddevice.readthedocs.io/en/0.4.6/
